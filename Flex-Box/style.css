@@ -1,0 +1,38 @@
+p{
+    width: 400px;
+    border: 2px solid black;
+}
+
+.container{
+   
+    width: 100vw;
+  
+    border: 1px solid;
+    display: flex;
+    /*default direction is row : justify-content => x-axis align-items=> y-axis */
+    justify-content: center;  /*row-direction : spacing x-axis*/
+    align-items: center; /*row-direction : spacing y-axis*/
+    /* align-content: space-around; */ /*row-direction : spacing on y-axis */
+    flex-wrap: wrap;
+}
+/* .para2{
+    align-self: center;
+} */
+/* .para2{
+    order: 3;
+} */
+ /* flex: the flex grow factor and flex shrink factor, and the flex basis. */
+/* .para1{
+   
+   
+} */
+
+/* .para1{
+    flex-basis: 20%;
+}
+.para2{flex-basis: 40%;}
+.para3{
+    flex-basis: 40%;
+}
+ */
+  
